@@ -1,0 +1,57 @@
+{
+    // Editor
+    "workbench.colorTheme": "Moonlight II Italic",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    // Fonts, colors, etc
+    "editor.bracketPairColorization.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.fontFamily": "FiraCode-Retina",
+    //"editor.fontLigatures": true,
+    "editor.fontSize": 13.5,
+    "editor.fontWeight": "500",
+    //"editor.lineHeight": 21,
+    "editor.cursorWidth": 5,
+    "editor.tabSize": 2,
+    "terminal.integrated.fontSize": 13,
+    "files.autoSave": "afterDelay",
+    // Code formats, autocomplete, etc
+    "[ruby]": {
+        "editor.tabSize": 2,
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    /*"[erb]": {
+        "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+    },*/
+    /* "files.associations": {
+        "*.html.erb": "html"
+    } */
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist",
+        "ruby",
+        "html"
+    ],
+    "emmet.includeLanguages": { "erb": "html", "ruby": "html" },
+    "vsicons.dontShowNewVersionMessage": true
+}

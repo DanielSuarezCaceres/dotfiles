@@ -1,0 +1,15 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Material-Theme-Palenight.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	// CUSTOM SETTINGS
+	"open_files_in_new_window": true,
+	"save_on_focus_lost": true,
+	"auto_save_on_modified": true,
+	"draw_unicode_white_space": "none",
+	"font_size": 14,
+	"font_face": "FiraCode-Retina",
+}
