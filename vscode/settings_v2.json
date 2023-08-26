@@ -1,0 +1,241 @@
+{
+  "json.schemaDownload.enable": true,
+  "workbench.editor.enablePreview": false,
+  // Git 3-way merge editor
+  "git.mergeEditor": true,
+  // Fonts, colors, etc
+  //"editor.lineHeight": 21,
+  "terminal.integrated.fontSize": 13,
+  "files.autoSave": "afterDelay",
+  "editor.cursorWidth": 5,
+  "editor.tabSize": 2,
+  "editor.fontSize": 16, // 14 for FHD screens, 15 for > 2K screens
+  "editor.bracketPairColorization.enabled": true,
+  "editor.snippetSuggestions": "top",
+  // Ubuntu Mono and Input are good too
+  // JetBrains Mono NL Regular
+  "editor.fontFamily": "FiraCode-Retina",
+  //"editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "[Palenight (Mild Contrast)]": {
+      "textMateRules": [
+        {
+          "scope": "variable.other.constant.ruby",
+          "settings": {
+            "foreground": "#ff8492"
+          }
+        },
+        {
+          "scope": "constant.language.symbol.ruby",
+          "settings": {
+            "foreground": "#ff8492"
+          }
+        },
+        {
+          "scope": "constant.language.boolean.ruby",
+          "settings": {
+            "foreground": "#FF966C"
+          }
+        },
+        {
+          "scope": "support.class.ruby",
+          "settings": {
+            "foreground": "#FFCB6B"
+          }
+        },
+        {
+          "scope": "entity.other.inherited-class.ruby",
+          "settings": {
+            "foreground": "#C3E88D"
+          }
+        },
+        {
+          "scope": "entity.name.type.module.ruby",
+          "settings": {
+            "foreground": "#FFCB6B"
+          }
+        },
+        {
+          "scope": "punctuation.definition.variable.ruby",
+          "settings": {
+            "foreground": "#C792EA"
+          }
+        },
+        {
+          "scope": "variable.other.readwrite.instance.ruby",
+          "settings": {
+            "foreground": "#BFC7D5"
+          }
+        },
+        {
+          "scope": "constant.language.symbol.hashkey.ruby",
+          "settings": {
+            "foreground": "#ff8492"
+          }
+        },
+        {
+          "scope": "variable.language.self.ruby",
+          "settings": {
+            "foreground": "#ff8492"
+          }
+        },
+        {
+          "scope": "punctuation.section.embedded.begin.ruby",
+          "settings": {
+            "foreground": "#C792EA"
+          }
+        },
+        {
+          "scope": "keyword.other.special-method.ruby",
+          "settings": {
+            //"foreground": "#89DDFF"
+            "foreground": "#C792EA"
+          }
+        },
+        {
+          "scope": "punctuation.definition.variable.ruby",
+          "settings": {
+            "foreground": "#89DDFF"
+            //"foreground": "#C792EA"
+          }
+        },
+        {
+          "scope": "punctuation.section.array.begin.ruby",
+          "settings": {
+            "foreground": "#89DDFF"
+            //"foreground": "#C792EA"
+          }
+        },
+        {
+          "scope": "keyword.control.def.ruby",
+          "settings": {
+            //"foreground": "#89DDFF"
+            "foreground": "#C792EA"
+          }
+        },
+        {
+          "scope": "punctuation.section.embedded.begin.erb",
+          "settings": {
+            //"foreground": "#89DDFF"
+            "foreground": "#89DDFF"
+          }
+        },
+        {
+          "scope": "punctuation.section.embedded.end.erb",
+          "settings": {
+            //"foreground": "#89DDFF"
+            "foreground": "#89DDFF"
+          }
+        }
+      ]
+    }
+  },
+  // Code formats, autocomplete, etc
+  "[ruby]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "misogi.ruby-rubocop"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  },
+  // ruby-rubocop extension settings
+  // This line is the one that works with rbenv
+  "ruby.rubocop.executePath": "/Users/danielsuarezcaceres/.rbenv/shims/",
+  // settings for vscode-ruby extension
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  "ruby.useLanguageServer": false, // true uses internal language server, false uses solargraph
+  "ruby.lint": {
+    "rubocop": true
+  },
+  //"solargraph.formatting": true,
+  "ruby.format": "rubocop", // use rubocop for formatting
+  // access intellisense for bundled gems
+  // "solargraph.useBundler": true,
+  "files.associations": {
+    //"*.html.erb": "html",
+    "*.css.erb": "css",
+    "*.html.erb": "erb"
+  },
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "plist",
+    "ruby",
+    "html"
+  ],
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "ruby": "html"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Todo-Tree extension
+  "todo-tree.tree.expanded": true,
+  "todo-tree.tree.scanAtStartup": true,
+  "todo-tree.highlights.enabled": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "todo",
+    "FIXME",
+    "TODO",
+    "fixme",
+    "fix",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug",
+      "iconColour": "#ff0000",
+      "type": "line"
+    },
+    "FIXME": {
+      "icon": "alert",
+      "iconColour": "#ff9900",
+      "type": "line"
+    },
+    "TODO": {
+      "icon": "checklist",
+      "iconColour": "#ffff00",
+      "type": "line"
+    }
+  },
+  "redhat.telemetry.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "editor.minimap.enabled": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "symbols.hidesExplorerArrows": false,
+  "gitlens.graph.layout": "editor"
+}
